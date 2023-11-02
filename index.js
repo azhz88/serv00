@@ -1,7 +1,7 @@
 const port = process.env.PORT || 3000;                               // 监听端口
 const projectPageURL = process.env.URL || 'https://www.google.com';  // 替换为项目分配的域名
-const username = process.env.WEB_USERNAME || 'admin';                // 访问list和sub的用户名
-const password = process.env.WEB_PASSWORD || 'password';             // 访问list和sub的密码
+const username = process.env.WEB_USERNAME || 'azhz';                // 访问list和sub的用户名
+const password = process.env.WEB_PASSWORD || 'buzhidao88.';             // 访问list和sub的密码
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'data.vps-jdkz.tk';      // 哪吒客户端域名
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                 // 无需设置TLS,当哪吒端口为443时，自动开启--tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'bxdhtC0Ko8XeE4hZBZ';     // 哪吒客户端密钥
